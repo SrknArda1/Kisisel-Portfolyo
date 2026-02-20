@@ -1,0 +1,164 @@
+#navbar {
+    background-color: #0a192f;
+    padding: 15px 60px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 999;
+}
+#navbar a {
+    color: #64ffda;
+    margin: 0px 15px;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 8px 16px;
+    border-radius: 5px;
+    background-color: #112240
+}
+#navbar a:hover {
+    color: #0a192f;
+    text-decoration: underline;
+    background-color: #64ffda
+}
+body {
+    background-color: #0a192f;
+    font-family: 'Poppins', sans-serif;
+}
+#giris_bolumu h2 {
+    color: #64ffda;
+}
+#giris_bolumu {
+    color: #ccd6f6;
+    font-size: 20px;
+    padding: 60px 40px;
+    background-color: #0a192f;
+    
+}
+.yetenek_baslık {
+    color: #64ffda;
+}
+#yetenekler {
+    color: #64ffda;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 20px;
+    padding: 40px 40px;
+    background-color: #112240;
+}
+#yetenekler h2 {
+    color: #64ffda;
+    width: 100%;
+    text-align: center;
+}
+#yetenekler h3{
+    color: #64ffda ;
+}
+#yetenekler h4 {
+    color: aqua;
+}
+#yetenekler li {
+    color: #ccd6f6;
+    text-decoration: none;
+}
+#hakkimda h2{
+    color: #64ffda;
+}
+#hakkimda p {
+    color: #ccd6f6;
+    font-size: 20px;
+}
+#hakkimda {
+    padding: 40px 40px;
+    background-color: #0a192f;
+}
+#iletisim_formu h2 {
+    color: #64ffda;
+}
+#iletisim_formu label {
+    color: #64ffda;
+    display: inline-block;
+    width: 180px;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+#iletisim_formu {
+    padding: 40px 40px;
+    background-color: #112240;
+}
+form {
+    color: #64ffda;
+    text-decoration: none;
+    font-size: 20px;
+}
+#inputlar {
+    margin-bottom: 30px;
+}
+button {
+    border-radius: 10px;
+    color: #64ffda;
+    background-color: #0a192f;
+    padding: 5px 10px;
+    font-size: 20px;
+    margin-top: 30px;
+    border: 1px solid #64ffda;
+    cursor: pointer;
+}
+button:hover {
+    color: #ccd6f6;
+    text-decoration: underline;
+}
+footer p{
+    color: #ccd6f6;
+}
+footer a{
+    color: #64ffda;
+    text-decoration: none;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+.yetenek_kartlari {
+    background-color: #112240;
+    padding: 20px 50px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    width: 300px;
+    
+}
+.yetenek_kartlari:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+#footer {
+    padding: 30px 40px;
+    background-color: #0a192f;
+    text-align: center;
+}
+textarea {
+    padding: 40px 140px;
+    background-color: #0a192f;
+    margin-top: 30px;
+    text-align: left;
+    vertical-align: top;
+    width: 400px;
+    height: 150px;
+    padding: 10px;
+    resize: vertical;
+    color: #ccd6f6;
+    border: 1px solid #64ffda;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    background-color: #0a192f;
+    border: 1px solid #64ffda;
+    border-radius: 5px;
+    color: #ccd6f6;
+    padding: 8px;
+    width: 250px;
+}
