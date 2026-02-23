@@ -1,6 +1,11 @@
-
+:root {
+    --main-color: #64ffda;
+    --bg-color:  #0a192f;
+    --card-color: #112240;
+    --text-color: #ccd6f6;
+}
 #navbar {
-    background-color: #0a192f;
+    background-color: var(--bg-color);
     padding: 15px 60px;
     text-align: center;
     position: sticky;
@@ -11,76 +16,77 @@
     z-index: 999;
 }
 #navbar a {
-    color: #64ffda;
+    color: var(--main-color);
     margin: 0px 15px;
     text-decoration: none;
     font-size: 15px;
     padding: 8px 16px;
     border-radius: 5px;
-    background-color: #112240
+    background-color: var(--card-color);
+    transition: all 0.3s ease;
 }
 #navbar a:hover {
-    color: #0a192f;
+    color: var(--bg-color);
     text-decoration: underline;
-    background-color: #64ffda
+    background-color: var(--main-color);
 }
 body {
-    background-color: #0a192f;
+    background-color: var(--bg-color);
     font-family: 'Poppins', sans-serif;
 }
 #giris_bolumu h2 {
-    color: #64ffda;
+    color: var(--main-color);
 }
 #giris_bolumu {
-    color: #ccd6f6;
+    color: var(--text-color);
     font-size: 20px;
     padding: 60px 40px;
-    background-color: #0a192f;
+    background-color: var(--bg-color);
     
 }
 .yetenek_baslık {
-    color: #64ffda;
+    color: var(--main-color);
 }
 #yetenekler {
-    color: #64ffda;
+    color: var(--main-color);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     font-size: 20px;
     padding: 40px 40px;
-    background-color: #112240;
+    background-color: var(--card-color);
 }
 #yetenekler h2 {
-    color: #64ffda;
+    color: var(--main-color);
     width: 100%;
     text-align: center;
 }
 #yetenekler h3{
-    color: #64ffda ;
+    color: var(--main-color);
 }
 #yetenekler h4 {
-    color: aqua;
+    color: var(--main-color);
 }
 #yetenekler li {
-    color: #ccd6f6;
+    color: var(--text-color);
     text-decoration: none;
 }
 #hakkimda h2{
-    color: #64ffda;
+    color: var(--main-color);
 }
 #hakkimda p {
-    color: #ccd6f6;
+    color: var(--text-color);
     font-size: 20px;
 }
 #hakkimda {
     padding: 40px 40px;
-    background-color: #0a192f;
+    background-color: var(--bg-color);
 }
 #iletisim_formu h2 {
-    color: #64ffda;
+    color: var(--main-color);
 }
 #iletisim_formu label {
-    color: #64ffda;
+    color: var(--main-color);
     display: inline-block;
     width: 180px;
     font-weight: bold;
@@ -89,10 +95,10 @@ body {
 }
 #iletisim_formu {
     padding: 40px 40px;
-    background-color: #112240;
+    background-color: var(--card-color);
 }
 form {
-    color: #64ffda;
+    color: var(--main-color);
     text-decoration: none;
     font-size: 20px;
 }
@@ -101,35 +107,36 @@ form {
 }
 button {
     border-radius: 10px;
-    color: #64ffda;
-    background-color: #0a192f;
+    color: var(--main-color);
+    background-color: var(--bg-color);
     padding: 5px 10px;
     font-size: 20px;
     margin-top: 30px;
-    border: 1px solid #64ffda;
+    border: 1px solid var(--main-color);;
     cursor: pointer;
+    transition: all 0.3s ease
 }
 button:hover {
-    color: #ccd6f6;
+    color: var(--text-color);
     text-decoration: underline;
 }
 footer p{
-    color: #ccd6f6;
+    color: var(--text-color);
 }
 footer a{
-    color: #64ffda;
+    color: var(--main-color);
     text-decoration: none;
 }
 footer a:hover{
     text-decoration: underline;
 }
 .yetenek_kartlari {
-    background-color: #112240;
+    background-color: var(--card-color);
     padding: 20px 50px;
     border-radius: 10px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
     width: 300px;
-    
+    transition: all 0.3s ease;
 }
 .yetenek_kartlari:hover {
     transform: translateY(-5px);
@@ -137,7 +144,7 @@ footer a:hover{
 }
 #footer {
     padding: 30px 40px;
-    background-color: #0a192f;
+    background-color: var(--bg-color);
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -150,17 +157,17 @@ footer a:hover{
 }
 
 .sosyal-linkler a {
-    color: #64ffda;
+    color: var(--main-color);
     text-decoration: none;
     font-size: 18px;
 }
 
 .sosyal-linkler a:hover {
-    color: #ccd6f6;
+    color: var(--text-color);
 }
 textarea {
     padding: 40px 140px;
-    background-color: #0a192f;
+    background-color: var(--bg-color);
     margin-top: 30px;
     text-align: left;
     vertical-align: top;
@@ -168,16 +175,16 @@ textarea {
     height: 150px;
     padding: 10px;
     resize: vertical;
-    color: #ccd6f6;
-    border: 1px solid #64ffda;
+    color: var(--text-color);
+    border: 1px solid var(--main-color);
 }
 input[type="text"],
 input[type="email"],
 input[type="password"] {
-    background-color: #0a192f;
-    border: 1px solid #64ffda;
+    background-color: var(--bg-color);
+    border: 1px solid var(--main-color);
     border-radius: 5px;
-    color: #ccd6f6;
+    color: var(--text-color);
     padding: 8px;
     width: 250px;
 }
@@ -209,4 +216,12 @@ input[type="password"] {
     textarea {
         width: 100%;
     }
+}
+#yetenekler h2::after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 3px;
+    background-color: var(--main-color);
+    margin: 10px auto;
 }
